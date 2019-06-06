@@ -16,11 +16,11 @@ public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Label label = new Label("Bitcoin app");
+        Label label = new Label("... no banks ...");
         label.setAlignment(Pos.CENTER);
         Scene scene = new Scene(label, 500, 350);
 
-        primaryStage.setTitle("... no banks ...");
+        primaryStage.setTitle("Bitcoin ...");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
