@@ -11,7 +11,7 @@ public class App extends Application {
     @Override
     public void init() throws Exception {
         super.init();
-        System.out.println("Inside init() method! Perform necessary initializations here.");
+        // System.out.println("Inside init() method! Perform necessary initializations here.");
     }
 
     @Override
@@ -28,13 +28,11 @@ public class App extends Application {
     @Override
     public void stop() throws Exception {
         super.stop();
-        System.out.println("Inside stop() method! Destroy resources. Perform Cleanup.");
+        // System.out.println("Inside stop() method! Destroy resources. Perform Cleanup.");
     }
 
     public static void main(String[] args) {
         launch(args);
-
-        // System.out.println( "Hello World!" );
     }
 
 }
