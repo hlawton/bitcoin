@@ -18,7 +18,7 @@ public class App extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("Ricoh ...");
 
-        FileInputStream input = new FileInputStream("C:\\Users\\Harvey\\Desktop\\Java\\bitcoin-app\\src\\main\\java\\com\\harvey\\Ricoh-Logo.jpg");
+        FileInputStream input = new FileInputStream("C:\\Users\\Harvey\\Desktop\\Java\\ricoh\\src\\main\\java\\com\\harvey\\Ricoh-Logo.jpg");
         Image image = new Image(input);
         ImageView imageView = new ImageView(image);
 
